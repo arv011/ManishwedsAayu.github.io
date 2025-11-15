@@ -2,8 +2,9 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://arv011.github.io/ManishwedsAayu.github.io/",
   "type": "module",
-  "scripts": {
+    "scripts": {
     "dev": "concurrently \"vite\" ",
     "build": "npm install && vite build",
     "build:dev": "npm install && vite build --mode development",
