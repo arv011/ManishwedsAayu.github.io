@@ -1,0 +1,18 @@
+{
+  "name": "rsvp-server",
+  "version": "1.0.0",
+  "description": "Minimal RSVP backend to receive form posts and send notifications via email/telegram/twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.10.1"
+  }
+}
