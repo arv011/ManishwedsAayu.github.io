@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
   //   port: 8080,
   // },
   plugins: [react()],
-  base: "/",
+  base: "/ManishwedsAayu.github.io",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
