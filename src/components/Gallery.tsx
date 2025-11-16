@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gallery1 from "@/assets/g1.jpeg";
 import gallery2 from "@/assets/g2.jpeg";
-import gallery3 from "@/assets/g3.jpeg";
+import gallery3 from "@/assets/g5.jpeg";
 import gallery4 from "@/assets/g4.jpeg";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
