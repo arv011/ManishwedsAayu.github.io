@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col items-center space-y-6">
           <div className="flex items-center gap-2 text-2xl font-playfair text-primary">
             <Heart className="h-6 w-6" />
-            <span>With love, Khemkha's Family</span>
+            <span>With love, Khemka's Family</span>
             <Heart className="h-6 w-6" />
           </div>
           
