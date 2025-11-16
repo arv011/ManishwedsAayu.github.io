@@ -44,10 +44,11 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center animate-hero-zoom"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/50 to-primary/70" />
+        <div className="absolute inset-0" />
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/50 to-primary/70" /> */}
       </div>
       
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
+      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white translate-y-20">
         <Heart className="mb-8 h-16 w-16 animate-float-heart text-white drop-shadow-lg" />
         
         <h1 className="mb-4 animate-fade-in font-playfair text-6xl font-bold md:text-8xl">
